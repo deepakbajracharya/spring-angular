@@ -1,0 +1,17 @@
+<div class="container light-container">
+  <div class="row">
+    <div class="col-md-12">
+      <button class="btn traffic-light" [ngClass]= "{'light-red-on' : isRed() }">RED</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button class="btn traffic-light" [ngClass]= "{'light-amber-on' : isAmber() }">AMBER</button>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <button class="btn traffic-light" [ngClass]= "{'light-green-on' : isGreen() }">GREEN</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+.light-container {
+    border-radius	: 0.5rem;
+    border		: 1px solid #eee;
+    width		: 100%;
+}
+.traffic-light {
+    border		: 0.5px solid #222;
+    border-radius	: 50%;
+    height		: 6rem;
+    width		: 6rem;
+    margin		: 0.2rem;
+    background-color	: #f0f0f0;
+    transition		: 0.2s;
+    transition-property	: background-color;
+    font-size		: 1rem;
+    color		: black;
+    font-weight		: bold;
+}
+.light-red-on {
+    color		: #722;
+    background-color	: #e63946;
+}
+.light-amber-on {
+    color		: #722;
+    background-color	: #ffbf00;
+}
+.light-green-on {
+    color		: #020;
+    background-color	: #272;
+}
